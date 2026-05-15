@@ -259,12 +259,7 @@ We're building the infrastructure that finally tells biology's actual story.
 Association is what the field has had for fifteen years. Causality is what BiRAGAS adds — 23 modules of it, 6 streams of weighted scoring, 7 categories of hallucination shielding, an evidence trail tying every inference to source biology. The three catalysts in this round are not the destination — they are the proof that we can build that infrastructure at the speed and capital efficiency the market requires.
 
 The capital we are raising is not for survival. It is for the discrete acts that compound this company from a validated platform into a recognized commercial entity over the next twelve months. We would welcome your participation in that work.`,
-      tactics: [
-        "Don't bury the ask — state it clearly and frame the timing as a genuine window, not a pressure tactic",
-        "The 'three catalysts' framework gives investors a mental model for when their investment gets validated",
-        "Frame the entry point as pre-institutional — that's where early-stage investor returns are made",
-        "End with the mission, not the money: 'We're not building another AI that finds associations. We're building the infrastructure that finally tells biology's actual story.'"
-      ]
+      tactics: []
     }
   }
 ];
@@ -425,6 +420,7 @@ function BiRAGASPitchGuide() {
               {section.content.body}
             </div>
 
+            {section.content.tactics && section.content.tactics.length > 0 && (
             <div style={{
               background: "#141414",
               border: "1px solid #2A2A2A",
@@ -469,6 +465,7 @@ function BiRAGASPitchGuide() {
                 </div>
               ))}
             </div>
+            )}
 
             {/* Navigation */}
             <div style={{ display: "flex", justifyContent: "space-between", marginTop: 36, paddingTop: 24, borderTop: "1px solid #222" }}>

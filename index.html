@@ -7,7 +7,7 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>BiRAGAS Investor Pitch Guide — Drug Discovery Platform</title>
-<!-- build-id: 20260515-235410Z | tactics-panel-removed-from-ask -->
+<!-- build-id: 20260516-004857Z | tactics-panel-removed-from-ask -->
 <meta name="description" content="Complete investor pitch playbook for BiRAGAS — a causal AI platform transforming drug target identification. Narrative arc, tactics, and objection handling.">
 <meta property="og:title" content="BiRAGAS Investor Pitch Guide">
 <meta property="og:description" content="Investor pitch playbook for the BiRAGAS causal AI platform.">
@@ -423,53 +423,6 @@ function BiRAGASPitchGuide() {
             }}>
               {section.content.body}
             </div>
-
-            {section.content.tactics && section.content.tactics.length > 0 && (
-            <div style={{
-              background: "#141414",
-              border: "1px solid #2A2A2A",
-              borderLeft: `3px solid ${section.color}`,
-              borderRadius: 6,
-              padding: "20px 24px"
-            }}>
-              <div style={{
-                fontSize: 10,
-                letterSpacing: "0.25em",
-                color: "#666",
-                textTransform: "uppercase",
-                fontFamily: "monospace",
-                marginBottom: 14
-              }}>
-                Pitch Tactics
-              </div>
-              {section.content.tactics.map((t, i) => (
-                <div key={i} style={{
-                  display: "flex",
-                  gap: 12,
-                  marginBottom: i < section.content.tactics.length - 1 ? 12 : 0,
-                  alignItems: "flex-start"
-                }}>
-                  <div style={{
-                    width: 20,
-                    height: 20,
-                    background: section.color,
-                    borderRadius: "50%",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    fontSize: 10,
-                    color: "#fff",
-                    fontFamily: "monospace",
-                    flexShrink: 0,
-                    marginTop: 1
-                  }}>
-                    {i + 1}
-                  </div>
-                  <div style={{ fontSize: 13.5, color: "#B8B4AC", lineHeight: 1.65 }}>{t}</div>
-                </div>
-              ))}
-            </div>
-            )}
 
             {/* Navigation */}
             <div style={{ display: "flex", justifyContent: "space-between", marginTop: 36, paddingTop: 24, borderTop: "1px solid #222" }}>
